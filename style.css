@@ -71,7 +71,7 @@ body {
 }
 
 .introduction .logo h3:hover {
-  background-color:  #06a;
+  background-color:  #1e40af;
   text-decoration: underline;
 }
 
@@ -108,7 +108,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 15px;
+  gap: 30px;
 }
 
 .content img {
@@ -124,4 +124,103 @@ body {
   font-size: 14px;
   color: darkgray;
   max-width: 150px;
+}
+
+/* Quote */
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  font-weight: 1;
+  font-style: italic;
+
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 10em;
+}
+
+.quote p {
+  font-size: 24px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quote h3 {
+  font-size: 14px;
+  color: #1f2939;
+}
+
+/* footer */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: white;
+  font-size: 14px;
+
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  background-color: #3882f6;
+
+  padding-left: 15em;
+  padding-right: 15em;
+  padding-top: 3em;
+  padding-bottom: 3em;
+
+  color: #e5e7eb;
+  border-radius: 10px;
+  gap: 20px;
+}
+
+.footer h3 {
+  margin: 0;
+  font-weight: 900;
+}
+
+.sign-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100px;
+  height: 25px;
+
+  border: 2px solid white;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 14px;
+  padding: 1px;
+}
+
+.sign-up a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.sign-up:hover {
+  text-decoration: underline;
+  background-color: #1e40af;
+}
+
+/* copyright */
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  background-color: #1f2937;
+  font-size: 14px;
+  color: #e5e7eb;
 }
