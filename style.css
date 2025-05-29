@@ -44,8 +44,17 @@ body {
   flex-direction: row;
 }
 
-.introduction div {
+.introduction .logo {
   flex-direction: column;
+}
+
+.introduction img {
+  height: 300px;
+  width: auto;
+  flex: 1 1 auto;
+
+  border: 1px solid rgb(0, 0, 0, 0);
+  border-radius: 20px;
 }
 
 .logo h1 {
@@ -57,6 +66,17 @@ body {
 .logo p {
   font-size: 18px;
   color: #e5e7eb;
+}
+
+.introduction h3 {
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-size: 18px;
+  max-width: 100px;
+
+  border: 1px solid rgb(0, 0, 0, 0);
+  border-radius: 10px;
+  text-align: center;
 }
 
 /*the rest*/
